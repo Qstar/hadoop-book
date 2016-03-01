@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <option name="DEFAULT_COMPILER" />
+    <option name="DEFAULT_COMPILER" value="Javac" />
     <resourceExtensions />
     <wildcardResourcePatterns>
       <entry name="!?*.java" />
@@ -18,6 +18,155 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
+      <profile default="false" name="Annotation profile for ch03-hdfs" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="ch03-hdfs" />
+      </profile>
+      <profile default="false" name="Annotation profile for ch15-sqoop" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="ch15-sqoop" />
+      </profile>
+      <profile default="false" name="Annotation profile for ch17-hive" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="ch17-hive" />
+      </profile>
+      <profile default="false" name="Annotation profile for ch18-crunch" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="ch18-crunch" />
+      </profile>
+      <profile default="false" name="Annotation profile for ch16-pig" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="ch16-pig" />
+      </profile>
+      <profile default="false" name="Annotation profile for ch06-mr-dev" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="ch06-mr-dev" />
+      </profile>
+      <profile default="false" name="Annotation profile for ch19-spark" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="ch19-spark" />
+      </profile>
+      <profile default="false" name="Annotation profile for ch22-case-studies" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="ch22-case-studies" />
+      </profile>
+      <profile default="false" name="Annotation profile for common" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="common" />
+      </profile>
+      <profile default="false" name="Annotation profile for ch08-mr-types" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="ch08-mr-types" />
+      </profile>
+      <profile default="false" name="Annotation profile for ch12-avro" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="ch12-avro" />
+      </profile>
+      <profile default="false" name="Annotation profile for ch05-io" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="ch05-io" />
+      </profile>
+      <profile default="false" name="Annotation profile for ch20-hbase" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="ch20-hbase" />
+      </profile>
+      <profile default="false" name="Annotation profile for ch02-mr-intro" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="ch02-mr-intro" />
+      </profile>
+      <profile default="false" name="Annotation profile for ch21-zk" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="ch21-zk" />
+      </profile>
+      <profile default="false" name="Annotation profile for ch13-parquet" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="ch13-parquet" />
+      </profile>
+      <profile default="false" name="Annotation profile for ch09-mr-features" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="ch09-mr-features" />
+      </profile>
+      <profile default="false" name="Annotation profile for snippet" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="snippet" />
+      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="book" target="1.6" />
+      <module name="ch02-mr-intro" target="1.6" />
+      <module name="ch03-hdfs" target="1.6" />
+      <module name="ch05-io" target="1.6" />
+      <module name="ch06-mr-dev" target="1.6" />
+      <module name="ch08-mr-types" target="1.6" />
+      <module name="ch09-mr-features" target="1.6" />
+      <module name="ch12-avro" target="1.6" />
+      <module name="ch13-parquet" target="1.6" />
+      <module name="ch15-sqoop" target="1.6" />
+      <module name="ch16-pig" target="1.6" />
+      <module name="ch17-hive" target="1.6" />
+      <module name="ch18-crunch" target="1.6" />
+      <module name="ch19-spark" target="1.6" />
+      <module name="ch20-hbase" target="1.6" />
+      <module name="ch21-zk" target="1.6" />
+      <module name="ch22-case-studies" target="1.6" />
+      <module name="common" target="1.6" />
+      <module name="hadoop-examples" target="1.6" />
+      <module name="root" target="1.5" />
+      <module name="snippet" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
