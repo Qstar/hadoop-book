@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 : == url_cat
 : == filesystem_cat
 : == filesystem_double_cat

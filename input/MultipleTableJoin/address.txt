@@ -1,0 +1,9 @@
+addressID    addressname
+
+1        　　　　Beijing
+
+2        　　　　Guangzhou
+
+3        　　　　Shenzhen
+
+4        　　　　Xian
