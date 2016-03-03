@@ -4,12 +4,12 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.Writable;
 
 public class BinaryOrTextWritable extends GenericWritable {
-  private static Class[] TYPES = { BytesWritable.class, Text.class };
+    private static Class[] TYPES = {BytesWritable.class, Text.class};
 
-  @Override
-  @SuppressWarnings("unchecked")
-  protected Class<? extends Writable>[] getTypes() {
-    return TYPES;
-  }
-  
+    @Override
+    @SuppressWarnings("unchecked")
+    protected Class<? extends Writable>[] getTypes(){
+        return TYPES;
+    }
+
 }
